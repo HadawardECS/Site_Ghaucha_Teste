@@ -1,0 +1,53 @@
+/*estilo do cabeçalho*/
+header {
+    text-align: center; 
+    padding: 50;
+ }
+ /*estilo da barra de navegação*/
+ nav {
+    text-align: center;
+    word-spacing: 40px;
+    padding: 50px;
+    background-color: #838383
+ }
+ header h1{
+    font-size: large;
+    font-weight: bolder;
+    font-family: sans-serif;
+ }
+ /*estilo do botão da barra de navegação*/
+ nav a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: larger;
+ } 
+ /*criando o layout de duas colunas*/
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .text-init {
+    flex: 70%;
+    padding: 20px;
+    background-color: #ffd271
+ }
+ .profile {
+    flex: 70%;
+    padding: 20px;
+ }
+ /*imagem de perfil e estilo de cabeçalho*/
+ .profile img {
+    width: 120px;
+    display: block;
+    object-fit: cover;
+    margin-left: 0;
+    margin-right: 0;
+ }
+ .profile h1 {
+    text-align: center;
+    
+ }
